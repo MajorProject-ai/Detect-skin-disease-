@@ -1,8 +1,7 @@
 🌌 Skin Disease Prediction Web Application 🌌
 This project is a Skin Disease Prediction Web App powered by Streamlit, TensorFlow, and MobileNet V2. The application predicts various skin conditions based on an uploaded image, offering real-time predictions with high accuracy.
 
-🔗 Live at: https://skin-diseases-prediction--app-bb4xpevzzccuynyexsbxjj.streamlit.app/
-
+🔗 Live at: https://emfqsh5caci5pgjgamukfj.streamlit.app/
 🎯 Features
 Upload Image: Users can upload skin condition images in .jpg, .jpeg, or .png formats.
 AI Predictions: The application predicts one of the following skin conditions:
@@ -51,18 +50,6 @@ Upload an Image: Users upload a skin condition image.
 Preprocessing: The image is resized to 224x224 and normalized for prediction.
 Prediction: The pre-trained MobileNet V2 model predicts the disease based on the input image.
 Output: The predicted disease and its confidence level are displayed in a user-friendly interface.
-
-🚀 Usage
-Follow these steps to use the application locally:
-
-1. Clone the Repository
-https://github.com/dusanepooja/Skin-Diseases-Prediction--Streamlit 
-2. Install Required Dependencies
-Make sure you have Python 3.8 or later installed. Then, run:
-pip install -r requirements.txt  
-3. Add Model Weights
-Download the pre-trained model weights (my_model.weights.h5) and place them in the project directory.
-4. Run the Application
 Run the Streamlit app with:
 streamlit run app.py  
 
