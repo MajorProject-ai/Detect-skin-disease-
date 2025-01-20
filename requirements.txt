@@ -4,3 +4,4 @@ numpy
 tensorflow
 tensorflow-hub
 keras
+cohere
