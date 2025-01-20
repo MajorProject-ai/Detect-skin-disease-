@@ -64,6 +64,6 @@ Follow these steps to use the application locally:
    `streamlit run app.py`
 
 ## 🎯 Contributor
-- **Nishant Kumar**
-- **Nithish Kumar**
-- **Rahul Kumar**
+- **Nishant Kumar (Developer)**
+- **Nitish Kumar (Developer)**
+- **Rahul Kumar (Developer)**
