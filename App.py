@@ -192,7 +192,7 @@ if selected_option == "Home":
 # Demo Video Page
 elif selected_option == "Video":
     st.markdown("<h2 style='text-align: center; color: #056839;'>Demo Video</h2>", unsafe_allow_html=True)
-    st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # Replace with your demo video link
+    st.video("#")  # Replace with your demo video link
 
 # About Page
 elif selected_option == "About":
