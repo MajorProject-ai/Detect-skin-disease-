@@ -1,8 +1,4 @@
-Here's the updated README with medical-themed emojis:
-
----
-
-# 🏥 Skin Disease Detection Web Application 🏥
+# 🏥 Skin Disease Detection 🏥
 
 This project is a **Skin Disease Detection Web App** powered by **Streamlit**, **TensorFlow**, and **MobileNet V2**. The application predicts various skin conditions based on an uploaded image, offering real-time predictions with high accuracy.
 
@@ -68,8 +64,6 @@ Follow these steps to use the application locally:
    `streamlit run app.py`
 
 ## 🎯 Contributor
+- **Nishant Kumar**
+- **Nithish Kumar**
 - **Rahul Kumar**
-
----
-
-This updated version of the README now uses medical-themed emojis.
