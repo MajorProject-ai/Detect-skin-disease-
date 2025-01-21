@@ -50,7 +50,7 @@ Follow these steps to use the application locally:
 
 1. **Clone the Repository**  
    Clone the repository to your local machine:  
-   `git clone https://github.com/your-github-username/Skin-Disease-Detection.git`
+   `https://github.com/MajorProject-ai/Detect-skin-disease-.git`
 
 2. **Install Required Dependencies**  
    Make sure you have Python 3.8 or later installed. Then, run:  
