@@ -38,6 +38,9 @@ The model is trained on a dataset of skin disease images sourced from Kaggle.
   - **Cutaneous Larva Migrans** (Parasitic Infection)
   - **Chickenpox** (Viral Infection)
   - **Shingles** (Viral Infection)
+ 
+  ## 📍 Paper Publication :
+  - **ICRAEST-2025 – An international-level conference held on March 21, 2025 at Godavari College of Engineering, Jalgaon, with IEEE technical sponsorship.**[Paper Publication](https://drive.google.com/file/d/1_7kq3iWCUiEbQ4zNNCjnNupQTpo8YGUw/view?usp=sharing)
 
 ## 🧠 How It Works
 1. **Upload an Image**: Users upload a skin condition image.
