@@ -39,7 +39,7 @@ The model is trained on a dataset of skin disease images sourced from Kaggle.
   - **Chickenpox** (Viral Infection)
   - **Shingles** (Viral Infection)
  
-  ## 📍 Paper Publication :
+ ## 📍 Paper Publication :
   - **ICRAEST-2025 – An international-level conference held on March 21, 2025 at Godavari College of Engineering, Jalgaon, with IEEE technical sponsorship.**[Paper Publication](https://drive.google.com/file/d/1_7kq3iWCUiEbQ4zNNCjnNupQTpo8YGUw/view?usp=sharing)
 
 ## 🧠 How It Works
