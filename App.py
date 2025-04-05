@@ -192,8 +192,9 @@ if selected_option == "Home":
 # Demo Video Page
 elif selected_option == "Video":
     st.markdown("<h2 style='text-align: center; color: #056839;'>Demo Video</h2>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center;'>Upload your video</h3>", unsafe_allow_html=True)
-  #  st.video("#")  # Replace with your demo video link
+    st.markdown("<h3 style='text-align: center;'>Watch the demo video below</h3>", unsafe_allow_html=True)
+    st.video("https://youtu.be/eZuf3kkiJ4U")
+
     
 
 # About Page
@@ -210,41 +211,35 @@ elif selected_option == "About":
         "The project has been carried out under the expert guidance and supervision of our esteemed advisors: Dr. R. Sudhakar, Dr. J. Jayaprakash, and Mrs. Chinchu Nair. Their invaluable insights and mentorship have played a crucial role in the successful development of this project."
     )
 
-    # IEEE Publication section
+    # Publication section
     st.subheader("Our paper Publication")
     st.write(
-        # "Our project also led to the publication of a paper in IEEE, detailing our findings and innovations in skin disease diagnosis using AI. "
-        "data "
-        "[Link](#)"
+        "ICRAEST-2025 – An international-level conference held on March 21, 2025 at Godavari College of Engineering, Jalgaon, with IEEE technical sponsorship."
+        "[Link](https://drive.google.com/file/d/1_7kq3iWCUiEbQ4zNNCjnNupQTpo8YGUw/view?usp=sharing)"
     )
 
     # About the Project section
     st.subheader("About the Project:")
     st.write(
-        # "Teledermatologis AI is the fruitful result of our final project in our software engineering degree. This initiative was motivated by the escalating demand for advanced tools to accurately diagnose skin conditions in family clinics."
+        "Efficient Skin Disease Detection Using Markov Decision-Making Process is a smart healthcare project aimed at accurately identifying various skin diseases based on user-reported symptoms. The system leverages the Markov Decision Process (MDP), a mathematical framework for modeling decision-making in uncertain environments, to analyze the progression of symptoms and predict the most probable skin condition. Users can simply input their symptoms through a user-friendly interface without the need for login or authentication."
     )
     st.write(
-        # "Recognizing that precise diagnosis is fundamental for effective treatment, our goal was to create an advanced system capable of automatically identifying different types of skin lesions. "
-        # "Our focus centered on six key skin conditions: Acne, Basal cell carcinoma, Eczema, Seborrheic keratosis, Milia, and Rosacea. "
-        # "These conditions are frequently encountered in clinical settings, and accurate identification can significantly enhance patient care outcomes."
-        "data"
+        "The backend processes this data using the MDP algorithm, which considers transition probabilities between different health states to generate precise predictions. This project enhances early detection and supports timely intervention by providing users with immediate results and basic treatment suggestions. It demonstrates the effective use of AI-powered logic in the medical domain and showcases strong skills in algorithm design, user interface development, and problem-solving using real-world data."
     )
 
     # Technical Details section
     st.subheader("Technical Details:")
     st.write(
-        # "In order to achieve this, we used machine learning and image processing techniques. This led to the creation of an intelligent system that achieves an impressive 92% accuracy rate on our self-curated dataset. "
-        # "The dataset, comprised of 1,700 images, was divided into 75% for training, 10% for validation, and 15% for testing. "
-        # "This division allowed us to refine our model to be robust and reliable, providing a high degree of confidence in its diagnostic capabilities."
-        "Data"
+        "This project is a smart, AI-powered web application that detects skin diseases based on user-provided images and symptoms. It uses deep learning (CNN model), Markov Decision Process logic for decision-making, and Cohere’s NLP API to dynamically suggest relevant treatments. The application is deployed using Streamlit for real-time interaction."
     )
-
-    # Closing statement
-    st.write(
-        # "Teledermatologis AI is the successful end product of our software engineering degree project. It epitomizes our dedication to learning new technologies, achieving our goals, and pursuing excellence. "
-        # "With the impressive accuracy of the system, we hope to help as many people as possible. \nMay we all enjoy good health!"
-        
-    )
+    st.write("1. Frontend/UI : Streamlit")
+    st.write("2. Deep Learning Framework : Keras, TensorFlow")
+    st.write("3. Markov Decision Process (MDP) Logic")
+    st.write("4. Convolutional Neural Networks (CNN) Logic")
+    st.write("5. Dynamic Treatment Generation : Cohere NLP")
+    st.write("6. Image Processing : NumPy")
+    st.write("7. Testing & Dataset: Skin disease image dataset (like HAM10000 or custom medical dataset)")
+    st.write("8. Deployment Tool: Streamlit")
 
 
 # Contact Us Page
